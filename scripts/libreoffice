@@ -9,4 +9,3 @@ if [ "$(id -u)" -eq 0 ]; then
     echo "Done!"
 else
     echo "Oh no, Ruffles doesn't have root :-( Make sure to run 'sudo ruffles' instead of 'ruffles'"
-    exit 1
