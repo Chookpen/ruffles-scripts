@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo Ruffles is readying to install some awesome apps!
+# Check if the script is running as root
+if [ "$(id -u)" -eq 0 ]; then
+    echo "Nice! Ruffles is running as root, we're good to go!"
+    echo "Making Ruffles folder..."
+    mkdir /ruffles
+    echo "Adding Ruffles folder to path..."
+    echo 'export PATH="/ruffles:$PATH"' >> ./.bashrc
+else
+    echo "Oh no, Ruffles doesn't have root :-( Make sure to run 'sudo ruffles' instead of 'ruffles'"
+    echo "I know chickens don't need root access normally, but please just for Ruffles??? (pleading eyes emoji)"
