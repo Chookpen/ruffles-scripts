@@ -17,3 +17,7 @@ Here be the rules:
 4. Get your script to install your app to the /ruffles/(your-app-name) directory and create a symbolic link in the /ruffles folder.
 5. If your Ruffles script installs a Flatpak, make a symbolic link or script to run the flatpak in the /ruffles folder.
 6. Leave funny messages in your code becuase why not?
+
+### But can't be bothered to write the script yourself?
+
+Just copy https://github.com/Chookpen/ruffles-scripts/scripts/test and edit the links to make your own script! After that, make a pull request and we'll approve or deny your script.
