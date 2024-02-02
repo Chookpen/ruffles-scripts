@@ -20,4 +20,4 @@ Here be the rules:
 
 ### But can't be bothered to write the script yourself?
 
-Just copy https://github.com/Chookpen/ruffles-scripts/scripts/test and edit the links to make your own script! After that, make a pull request and we'll approve or deny your script.
+Just copy https://github.com/Chookpen/ruffles-scripts/blob/main/scripts/test and edit the links to make your own script! After that, make a pull request and we'll approve or deny your script.
