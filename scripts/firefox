@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Hi there! Ruffles is about to install a test onto your system which will test whether Ruffles is running fine or not."
+curl -o /ruffles/firefox.tar.bz2 https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US
+tar -xf /ruffles/firefox.tar.bz2
+chmod +x /ruffles/firefox/firefox
+ln -s /ruffles/firefox/firefox /ruffles/firefox
+echo "Done!"
+exit 0
