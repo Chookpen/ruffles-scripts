@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Hi there! Ruffles is about to install a test onto your system which will test whether Ruffles is running fine or not."
+mkdir /ruffles/test
+touch /ruffles/test/main
+curl -o /ruffles/test/main https://raw.githubusercontent.com/Chookpen/ruffles/main/testruffles
+chmod +x /ruffles/test/main
+ln -s /ruffles/testruffles /ruffles/test/main
+echo "Done!"
+exit 0
