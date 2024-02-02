@@ -5,6 +5,6 @@ mkdir /ruffles/libreoffice-appimage
 touch main.AppImage
 curl -o /ruffles/libreoffice-appimage/main.AppImage https://appimages.libreitalia.org/LibreOffice-fresh.standard-x86_64.AppImage
 chmod +x /ruffles/libreoffice-appimage/main.AppImage
-ln -s /ruffles/libreoffice /ruffles/libreoffice-appimage/main.AppImaggeg
+ln -s /ruffles/libreoffice /ruffles/libreoffice-appimage/main.AppImage
 echo "Done!"
 exit 0
