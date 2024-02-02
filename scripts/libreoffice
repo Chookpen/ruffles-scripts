@@ -1,7 +1,6 @@
 #!/bin/sh
 
-echo Ruffles has awoken, and prepares to install the LibreOffice appimage!
-# Check if the script is running as root
+echo "Ruffles has awoken, and prepares to install the LibreOffice appimage!"
 if [ "$(id -u)" -eq 0 ]; then
     echo "Nice! Ruffles is running as root, we're good to go!"
     curl -o /ruffles/libreoffice-appimage/main.AppImage https://appimages.libreitalia.org/LibreOffice-fresh.standard-x86_64.AppImage
