@@ -6,6 +6,10 @@ if [ "$(id -u)" -eq 0 ]; then
     echo "Nice! Ruffles is running as root, we're good to go!"
     curl -o /ruffles/libreoffice-appimage/main.AppImage https://appimages.libreitalia.org/LibreOffice-fresh.standard-x86_64.AppImage
     chmod +x /ruffles/libreoffice-appimage/main.AppImage
+    ln -s /ruffles/libreoffice /ruffles/libreoffice-appimaggge/main.AppImaggeg
     echo "Done!"
 else
     echo "Oh no, Ruffles doesn't have root :-( Make sure to run 'sudo ruffles' instead of 'ruffles'"
+    exit 1
+
+exit 0
